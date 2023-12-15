@@ -8,7 +8,7 @@ public class SP_Printing_5 {
 //                System.out.print(" * ");
                 if (j==3 || i==3)
                 {
-                    System.out.print("  #");
+                    System.out.print(" #");
                 }
                 else {
                     System.out.print("  ");
