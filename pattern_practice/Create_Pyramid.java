@@ -1,4 +1,4 @@
-package org.practice_java.pattern_practice;
+package pattern_practice;
 
 public class Create_Pyramid {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.practice_java.string_programs;
+package com.CoreJava_CW.string;
 
 public class CountDigitInString {
     public static void main(String[] args) {
