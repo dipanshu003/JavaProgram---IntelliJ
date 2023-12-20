@@ -1,4 +1,4 @@
-package com.CoreJava_CW.collection;
+package com.CoreJava_CW.collection.list;
 
 import java.util.*;
 
@@ -8,11 +8,11 @@ public class StudentList {
 
         List list1 = new ArrayList();
 
-        list1.add(new Student("Dip",101,21));
+        list1.add(new Student("Dip",21));
 
 
         List list2 = new LinkedList();
-        list2.add(new Student("Piyu",102,17));
+        list2.add(new Student("Piyu",17));
         list2.addAll(list1);
 
 //        System.out.println(list2);
