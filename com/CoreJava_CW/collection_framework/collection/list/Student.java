@@ -1,4 +1,4 @@
-package com.CoreJava_CW.collection.list;
+package com.CoreJava_CW.collection_framework.collection.list;
 
 import java.util.ArrayList;
 import java.util.List;

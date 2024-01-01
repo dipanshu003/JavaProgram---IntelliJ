@@ -2,7 +2,7 @@ package com.CoreJava_CW.data_type_Variable;
 
 public class StudentsClass {
     public static void main(String[] args) {
-        System.out.println("*Information of First Student*");
+        System.out.println("*Information of First Employee*");
         String Sname1 = "Dipanshu";
         String stu1s= "12th";
         int stu1Id = 1;
@@ -16,7 +16,7 @@ public class StudentsClass {
         System.out.println("Percentage : "+stu1Per);
         System.out.println();
 
-        System.out.println("*Information of Second Student*");
+        System.out.println("*Information of Second Employee*");
         String stu2s= "12th";
         int stu2Id = 1;
         int stu2Age = 21;
@@ -30,7 +30,7 @@ public class StudentsClass {
         System.out.println("Percentage : "+stu2Per);
         System.out.println();
 
-        System.out.println("*Information of Third Student*");
+        System.out.println("*Information of Third Employee*");
         String stu3s= "12th";
         int stu3Id = 1;
         int stu3Age = 21;

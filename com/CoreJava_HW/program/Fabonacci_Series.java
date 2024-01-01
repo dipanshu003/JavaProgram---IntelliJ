@@ -6,8 +6,8 @@ public class Fabonacci_Series {
         int first = 0;
         int second = 1;
         int third= 0;
-        System.out.println(first);
-        System.out.println(second);
+//        System.out.println(first);
+//        System.out.println(second);
         for (int i = 1; i <= 10; i++) {
             third = first + second;
             System.out.println(third);

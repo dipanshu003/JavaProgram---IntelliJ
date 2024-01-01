@@ -1,4 +1,4 @@
-package com.CoreJava_CW.collection.list.using_generic;
+package com.CoreJava_CW.collection_framework.collection.list.using_generic;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -32,8 +32,9 @@ public class BookMain {
                     Book temp = list.get(i);
                     list.set(i,list.get(j));
                     list.set(j,temp);
+
                 }
             }
-        }
+        } 
     }
 }

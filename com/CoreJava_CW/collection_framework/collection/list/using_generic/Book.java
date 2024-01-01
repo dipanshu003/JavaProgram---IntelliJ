@@ -1,4 +1,4 @@
-package com.CoreJava_CW.collection.list.using_generic;
+package com.CoreJava_CW.collection_framework.collection.list.using_generic;
 
 import java.util.Scanner;
 

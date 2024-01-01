@@ -49,6 +49,6 @@ public class Student {
 
     public String display()
     {
-        return "Student {"+getName()+", "+getAge()+", "+getPer()+", "+getId()+", "+getStd()+"}";
+        return "Employee {"+getName()+", "+getAge()+", "+getPer()+", "+getId()+", "+getStd()+"}";
     }
 }

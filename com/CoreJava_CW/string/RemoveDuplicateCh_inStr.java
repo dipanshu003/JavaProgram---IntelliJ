@@ -4,7 +4,7 @@ import java.util.*;
 
 public class RemoveDuplicateCh_inStr {
     public static void main(String[] args) {
-        String str = "Programming";
+        String str = "programmingp";
         removeDuplicate3(str);
 
 //        System.out.println(str.indexOf('g',5));
