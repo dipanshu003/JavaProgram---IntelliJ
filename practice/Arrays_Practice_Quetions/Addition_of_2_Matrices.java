@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Addition_of_2_Matrices {
     public static void main(String[] args) {
-//        int[][] arr1 = {{1,4},{2,3}};
-//        int[][] arr2 = {{2,4},{3,5}};
-//        addMatrice(arr1,arr2);
+        int[][] arr1 = {{1,4},{2,3}};
+        int[][] arr2 = {{2,4},{3,5}};
+        addMatrice(arr1,arr2);
 
-        int[][] arr = new int[3][3];
-        acceptInMatrice(arr);
-        dis(arr);
+//        int[][] arr = new int[3][3];
+//        acceptInMatrice(arr);
+//        dis(arr);
     }
     public static void addMatrice(int[][] arr1, int[][] arr2)
     {
