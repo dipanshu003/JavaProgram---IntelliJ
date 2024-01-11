@@ -10,8 +10,6 @@ public class IteratingArr_ForEach {
 //        {
 //            System.out.println(i);
 //        }
-
-
-        Arrays.stream(arr).filter(i->i>5).forEach(i-> System.out.println(i));
+        Arrays.stream(arr).forEach(n-> System.out.println(n));
     }
 }
