@@ -12,6 +12,5 @@ public class Rough {
         {
             System.out.println("It is Arithmetic Exception....");
         }
-
     }
 }
