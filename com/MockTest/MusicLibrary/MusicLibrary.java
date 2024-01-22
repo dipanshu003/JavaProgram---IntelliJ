@@ -18,19 +18,42 @@ public class MusicLibrary {
         songs.add(song);
     }
 
-    public void removeSong(String song) {
-        songs.remove(song);
+    public void removeSong(int index) {
+        if (!songs.isEmpty()) {
+            songs.remove(index);
+            System.out.println("Song remove Successfuly...");
+        } else {
+            System.out.println("No Songs There .. Add Some Songs.");
+        }
+
     }
 
     public void playSong() {
-        Collections.shuffle(songs);
-        System.out.println("Now Playing Song is : " + songs.get(0));
+        System.out.println("------------------------------");
+        System.out.println("***Playing Song***");
+
+        if (!songs.isEmpty()) {
+            Collections.shuffle(songs);
+            System.out.println("Now Playing Song is : " + songs.get(0));
+        } else {
+            System.out.println("No Song in Your Playlist...");
+        }
+        System.out.println("------------------------------");
+
     }
 
     public void dispSong() {
-        for (Object o : songs) {
-            System.out.println(o);
+        System.out.println("------------------------------");
+        System.out.println("***Displaying Songs***");
+        if (!songs.isEmpty()) {
+            for (Object o : songs) {
+                System.out.println(o);
+            }
         }
+        else {
+            System.out.println("No songs in Your Playlist...");
+        }
+        System.out.println("------------------------------");
     }
 
 
@@ -40,7 +63,10 @@ public class MusicLibrary {
         m.addSong("Maa tuje salam");
         m.addSong("Pahle Kabhi");
 
+        m.removeSong(0);
         m.dispSong();
-        m.playSong();
+
+//        m.dispSong();
+//        m.playSong();
     }
 }
