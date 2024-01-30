@@ -10,11 +10,15 @@ public class Boxing {
 //        Integer e1 = y;
 //        System.out.println(e1);
 //
+//
+//        Integer i = new Integer(1029);
+//        System.out.println(i);
+//
+//       int y =i.intValue();
+//        System.out.println(y);
 
-        Integer i = new Integer(1029);
+        String str = "234.3";
+        Float i = Float.parseFloat(str);
         System.out.println(i);
-
-       int y =i.intValue();
-        System.out.println(y);
     }
 }

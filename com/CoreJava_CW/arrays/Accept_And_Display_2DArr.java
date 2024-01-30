@@ -2,7 +2,7 @@ package com.CoreJava_CW.arrays;
 
 import java.util.Scanner;
 
-public class Accept_And_Display_2DArr {
+public class  Accept_And_Display_2DArr {
     public static void main(String[] args) {
         int[][] arr = new int[2][2];
         acceptAndPrint(arr);

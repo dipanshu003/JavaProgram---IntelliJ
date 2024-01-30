@@ -1,6 +1,6 @@
 package com.CoreJava_CW.string;
 
-public class CountDigitInString {
+public class  CountDigitInString {
     public static void main(String[] args) {
         String name = "The Kiran Academy";
         int a = count(name);
