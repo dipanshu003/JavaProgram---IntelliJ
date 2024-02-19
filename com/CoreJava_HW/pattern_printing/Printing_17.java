@@ -3,11 +3,11 @@ package com.CoreJava_HW.pattern_printing;
 public class Printing_17 {
     public static void main(String[] args) {
 
-//        A 2 C 4 E
-//        A 2 C 4 E
-//        A 2 C 4 E
-//        A 2 C 4 E
-//        A 2 C 4 E
+//        ReverseInWords 2 C 4 E
+//        ReverseInWords 2 C 4 E
+//        ReverseInWords 2 C 4 E
+//        ReverseInWords 2 C 4 E
+//        ReverseInWords 2 C 4 E
 
         for (int i = 1; i <=5 ; i++) {
             char p = 'A';

@@ -7,7 +7,7 @@ public class Printing_19 {
 //        D D D D D
 //        C C C C C
 //        B B B B B
-//        A A A A A
+//        ReverseInWords ReverseInWords ReverseInWords ReverseInWords ReverseInWords
 
         char p ='E';
         for (int i = 1; i <=5 ; i++,p--) {

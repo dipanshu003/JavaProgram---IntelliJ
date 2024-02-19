@@ -21,12 +21,12 @@ public class SortArrayList {
         System.out.println(list);
 
 //        System.out.println("Before Sorting : "+list);
-//        sortList(list);
+//        SortList(list);
 //        System.out.println("After Sorting : "+list);
 
     }
 
-//    public static void sortList (List<Integer> list)
+//    public static void SortList (List<Integer> list)
 //    {
 //        for (int i = 0; i <list.size() ; i++) {
 //            for (int j = i+1; j < list.size(); j++) {

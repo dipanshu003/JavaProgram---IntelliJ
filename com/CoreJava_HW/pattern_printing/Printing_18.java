@@ -3,7 +3,7 @@ package com.CoreJava_HW.pattern_printing;
 public class Printing_18 {
     public static void main(String[] args) {
 
-//        A A A A A
+//        ReverseInWords ReverseInWords ReverseInWords ReverseInWords ReverseInWords
 //        B B B B B
 //        C C C C C
 //        D D D D D

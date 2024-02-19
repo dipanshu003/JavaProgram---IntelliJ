@@ -22,11 +22,11 @@ public class Pattern {
 
     public static void pattern2(int row,int col)
     {
-//        A B C D E
-//        A B C D E
-//        A B C D E
-//        A B C D E
-//        A B C D E
+//        ReverseInWords B C D E
+//        ReverseInWords B C D E
+//        ReverseInWords B C D E
+//        ReverseInWords B C D E
+//        ReverseInWords B C D E
 
         for (int i = 1; i <=row ; i++) {
             char p = 'A';
@@ -61,11 +61,11 @@ public class Pattern {
 
     public static void pattern4(int row,int col)
     {
-//        E D C B A
-//        E D C B A
-//        E D C B A
-//        E D C B A
-//        E D C B A
+//        E D C B ReverseInWords
+//        E D C B ReverseInWords
+//        E D C B ReverseInWords
+//        E D C B ReverseInWords
+//        E D C B ReverseInWords
 
         for (int i = 1; i <=row ; i++) {
             char p = 'E';
